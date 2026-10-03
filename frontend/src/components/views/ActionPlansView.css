@@ -1,0 +1,341 @@
+/* Action Plans View Styles - Unified Enterprise Console */
+.plans-view-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.plans-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.plans-tagline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #34d399;
+  margin-bottom: 6px;
+}
+
+.plans-header h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 6px;
+  letter-spacing: -0.5px;
+}
+
+.plans-header p {
+  color: var(--text-secondary);
+  font-size: 13.5px;
+  margin: 0;
+  max-width: 760px;
+}
+
+.export-json-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+
+.export-json-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border-medium);
+}
+
+/* Metric Cards */
+.plans-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 860px) {
+  .plans-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.plan-metric-card {
+  background: var(--bg-surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-metric-label {
+  font-size: 11px;
+  font-weight: 750;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.6px;
+  margin-bottom: 6px;
+}
+
+.p-metric-val {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.p-metric-val.val-green { color: #34d399; }
+.p-metric-val.val-blue { color: #60a5fa; }
+.p-metric-val.val-amber { color: #fbbf24; }
+
+.p-metric-sub {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Filter bar */
+.plans-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 6px 13px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.filter-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.filter-btn.active {
+  background: rgba(16, 185, 129, 0.14);
+  border-color: rgba(52, 211, 153, 0.35);
+  color: #34d399;
+}
+
+.plans-count-badge {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* Plans Grid */
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.plan-archive-card {
+  background: var(--bg-surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+
+.plan-archive-card:hover {
+  border-color: var(--border-medium);
+  transform: translateY(-1px);
+}
+
+.card-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card-id-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.archive-asset-id {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #34d399;
+}
+
+.archive-comp-title {
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+.card-top-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cached-disk-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 5px;
+  background: var(--disp-reuse-bg);
+  color: var(--disp-reuse-text);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.archive-headline {
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin: 0 0 14px;
+}
+
+.archive-assumptions-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 16px;
+}
+
+.preview-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.prev-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.prev-icon.econ { color: #60a5fa; }
+.prev-icon.env { color: #34d399; }
+
+.card-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.steps-count {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.view-full-plan-btn {
+  background: transparent;
+  border: none;
+  color: #34d399;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 5px;
+  transition: all 0.18s;
+}
+
+.view-full-plan-btn:hover {
+  background: var(--disp-reuse-bg);
+}
+
+/* Empty State */
+.plans-empty-card {
+  background: var(--bg-surface-card);
+  border: 1px dashed var(--border-subtle);
+  border-radius: 14px;
+  padding: 56px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-icon-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.plans-empty-card h3 {
+  font-size: 18px;
+  color: var(--text-primary);
+  margin: 0 0 8px;
+}
+
+.plans-empty-card p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  max-width: 540px;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.goto-explorer-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 7px;
+  border: none;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

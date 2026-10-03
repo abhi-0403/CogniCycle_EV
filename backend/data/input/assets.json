@@ -1,0 +1,2873 @@
+[
+  {
+    "component": "Battery Module",
+    "manufacturer": "CATL",
+    "model": "CTP-3.0-A",
+    "year": 2021,
+    "vehicle_make": "Tesla",
+    "vehicle_model": "Model 3",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 400,
+      "capacity": 75,
+      "energy_density": 180,
+      "technology": "NMC",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 87,
+      "soc": 65,
+      "cycle_count": 850,
+      "internal_resistance": 35,
+      "cell_imbalance": 12,
+      "thermal_history": "Normal operating range, no thermal events",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 950,
+      "refurbishment_value": 650,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-001"
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "LG Energy Solution",
+    "model": "E78",
+    "year": 2019,
+    "vehicle_make": "Chevrolet",
+    "vehicle_model": "Bolt EV",
+    "vehicle_year": 2019,
+    "condition": "fair",
+    "technical_data": {
+      "voltage_rating": 350,
+      "capacity": 60,
+      "technology": "NMC",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 68,
+      "soc": 40,
+      "cycle_count": 1800,
+      "internal_resistance": 65,
+      "cell_imbalance": 35,
+      "thermal_history": "One thermal management warning at 45000km",
+      "functional_test_result": "degraded"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "medium",
+      "physical_damage": "none"
+    },
+    "asset_id": "EV-BAT-002",
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Battery Pack",
+    "manufacturer": "BYD",
+    "model": "Blade-B2",
+    "year": 2022,
+    "vehicle_make": "BYD",
+    "vehicle_model": "Seal",
+    "condition": "excellent",
+    "technical_data": {
+      "voltage_rating": 568,
+      "capacity": 82,
+      "technology": "LFP",
+      "weight_kg": 530
+    },
+    "diagnostic_data": {
+      "soh": 95,
+      "soc": 78,
+      "cycle_count": 350,
+      "internal_resistance": 22,
+      "cell_imbalance": 5,
+      "thermal_history": "No thermal events recorded",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "asset_id": "EV-BAT-003",
+    "economic_data": {
+      "reuse_value": 5500,
+      "refurbishment_value": 3800,
+      "estimated_repair_cost": 450,
+      "estimated_testing_cost": 250,
+      "estimated_logistics_cost": 200,
+      "recovery_value": 1100
+    }
+  },
+  {
+    "component": "BMS",
+    "manufacturer": "Bosch",
+    "model": "BMS-EV-500",
+    "year": 2020,
+    "vehicle_make": "Volkswagen",
+    "vehicle_model": "ID.4",
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "asset_id": "EV-BMS-004",
+    "technical_data": {
+      "weight_kg": 2.5
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    }
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "Samsung SDI",
+    "model": "P5-94",
+    "year": 2018,
+    "condition": "poor",
+    "technical_data": {
+      "voltage_rating": 360,
+      "capacity": 64,
+      "technology": "NMC",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 42,
+      "cycle_count": 3200,
+      "internal_resistance": 110,
+      "cell_imbalance": 75,
+      "thermal_history": "Multiple thermal warnings, one thermal cutoff event",
+      "functional_test_result": "degraded"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "high",
+      "physical_damage": "minor"
+    },
+    "asset_id": "EV-BAT-005",
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Cell",
+    "manufacturer": "Panasonic",
+    "model": "2170-NCA",
+    "year": 2020,
+    "condition": "unknown",
+    "technical_data": {
+      "voltage_rating": 3.7,
+      "capacity": 5.0,
+      "technology": "NCA"
+    },
+    "diagnostic_data": {
+      "soh": 76
+    },
+    "asset_id": "EV-CEL-006",
+    "economic_data": {}
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "CATL",
+    "model": "CTP-2.0",
+    "year": 2020,
+    "condition": "failed",
+    "diagnostic_data": {
+      "soh": 15,
+      "cycle_count": 4500,
+      "internal_resistance": 200,
+      "thermal_history": "Thermal runaway incident recorded - module quarantined",
+      "functional_test_result": "fail"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "high",
+      "physical_damage": "severe",
+      "containment_required": true,
+      "safety_incidents": [
+        "Thermal runaway event 2024-03"
+      ]
+    },
+    "asset_id": "EV-BAT-007",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "Infineon",
+    "model": "HybridPACK-Drive",
+    "year": 2021,
+    "vehicle_make": "Hyundai",
+    "vehicle_model": "Ioniq 5",
+    "condition": "good",
+    "technical_data": {
+      "power_rating": 150,
+      "efficiency": 97,
+      "voltage_rating": 800,
+      "technology": "SiC MOSFET",
+      "weight_kg": 16
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "asset_id": "EV-INV-008",
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    }
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "Continental",
+    "model": "INV-340-B",
+    "year": 2019,
+    "condition": "fair",
+    "technical_data": {
+      "power_rating": 120,
+      "efficiency": 89,
+      "voltage_rating": 400,
+      "technology": "IGBT",
+      "weight_kg": 16
+    },
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "error_codes": [
+        "P0A1F",
+        "U0100"
+      ]
+    },
+    "safety_data": {
+      "thermal_risk": "medium",
+      "physical_damage": "minor"
+    },
+    "asset_id": "EV-INV-009",
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    }
+  },
+  {
+    "component": "DC-DC Converter",
+    "manufacturer": "TDK",
+    "model": "EV-DCDC-3K",
+    "year": 2020,
+    "condition": "good",
+    "technical_data": {
+      "power_rating": 3.3,
+      "efficiency": 96,
+      "voltage_rating": 400,
+      "weight_kg": 6
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-DC--010",
+    "economic_data": {
+      "reuse_value": 450,
+      "refurbishment_value": 280,
+      "estimated_repair_cost": 75,
+      "estimated_testing_cost": 40,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 50
+    }
+  },
+  {
+    "component": "IGBT Module",
+    "manufacturer": "Infineon",
+    "model": "FF600R12ME4",
+    "year": 2019,
+    "condition": "failed",
+    "technical_data": {
+      "voltage_rating": 1200,
+      "current_rating": 600,
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "functional_test_result": "fail",
+      "error_codes": [
+        "IGBT_SHORT",
+        "THERMAL_FAULT"
+      ]
+    },
+    "safety_data": {
+      "thermal_risk": "high",
+      "physical_damage": "moderate"
+    },
+    "asset_id": "EV-IGB-011",
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Traction Motor",
+    "manufacturer": "Nidec",
+    "model": "Ni200EV-A",
+    "year": 2021,
+    "vehicle_make": "Nissan",
+    "vehicle_model": "Ariya",
+    "condition": "good",
+    "technical_data": {
+      "power_rating": 178,
+      "efficiency": 96,
+      "technology": "Permanent Magnet Synchronous",
+      "weight_kg": 45
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "No visible damage, clean housing"
+    },
+    "material_data": {
+      "rare_earth_content": true,
+      "primary_materials": [
+        "copper",
+        "steel",
+        "neodymium",
+        "dysprosium"
+      ]
+    },
+    "safety_data": {
+      "physical_damage": "none"
+    },
+    "asset_id": "EV-TRA-012",
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    }
+  },
+  {
+    "component": "Traction Motor",
+    "manufacturer": "ZF",
+    "model": "CeTrax-lite",
+    "year": 2018,
+    "condition": "poor",
+    "technical_data": {
+      "power_rating": 120,
+      "technology": "Permanent Magnet Synchronous",
+      "weight_kg": 65
+    },
+    "diagnostic_data": {
+      "functional_test_result": "fail",
+      "visual_inspection": "Bearing noise detected, winding discoloration observed"
+    },
+    "material_data": {
+      "rare_earth_content": true,
+      "primary_materials": [
+        "copper",
+        "steel",
+        "neodymium"
+      ]
+    },
+    "asset_id": "EV-TRA-013",
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    }
+  },
+  {
+    "component": "Stator",
+    "manufacturer": "BorgWarner",
+    "model": "HVH-250-S",
+    "year": 2020,
+    "condition": "fair",
+    "technical_data": {
+      "power_rating": 250
+    },
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Minor winding insulation wear"
+    },
+    "asset_id": "EV-STA-014",
+    "economic_data": {}
+  },
+  {
+    "component": "Reduction Gearbox",
+    "manufacturer": "GKN",
+    "model": "eDrive-1S",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "Normal wear, oil condition acceptable"
+    },
+    "asset_id": "EV-RED-015",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "VCU",
+    "manufacturer": "Bosch",
+    "model": "VCU-EV-2.0",
+    "year": 2021,
+    "vehicle_make": "Mercedes",
+    "vehicle_model": "EQC",
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "asset_id": "EV-VCU-016",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "ECU",
+    "manufacturer": "Continental",
+    "model": "ECU-PT-400",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": [
+        "P0100"
+      ]
+    },
+    "asset_id": "EV-ECU-017",
+    "technical_data": {
+      "weight_kg": 2.5
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    }
+  },
+  {
+    "component": "ADAS ECU",
+    "manufacturer": "Mobileye",
+    "model": "EyeQ5",
+    "year": 2022,
+    "condition": "excellent",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-ADA-018",
+    "technical_data": {
+      "weight_kg": 2.5
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    }
+  },
+  {
+    "component": "Infotainment Computer",
+    "manufacturer": "Harman",
+    "model": "IVI-600",
+    "year": 2019,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "error_codes": [
+        "DISPLAY_DIM",
+        "BT_PAIR_FAIL"
+      ]
+    },
+    "asset_id": "EV-INF-019",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Telematics Control Unit",
+    "manufacturer": "LG Electronics",
+    "model": "TCU-5G-100",
+    "year": 2022,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-TEL-020",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "OBC",
+    "manufacturer": "Eaton",
+    "model": "OBC-11kW-V2",
+    "year": 2021,
+    "vehicle_make": "Ford",
+    "vehicle_model": "Mustang Mach-E",
+    "condition": "good",
+    "technical_data": {
+      "power_rating": 11,
+      "efficiency": 94,
+      "voltage_rating": 400,
+      "weight_kg": 11
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-OBC-021",
+    "economic_data": {
+      "reuse_value": 750,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 110,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 35,
+      "recovery_value": 85
+    }
+  },
+  {
+    "component": "Charging Port",
+    "manufacturer": "TE Connectivity",
+    "model": "CCS2-150A",
+    "year": 2020,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Pin corrosion observed on DC contacts"
+    },
+    "asset_id": "EV-CHA-022",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Onboard Charger",
+    "manufacturer": "BorgWarner",
+    "model": "OBC-22kW",
+    "year": 2019,
+    "condition": "failed",
+    "technical_data": {
+      "power_rating": 22,
+      "weight_kg": 11
+    },
+    "diagnostic_data": {
+      "functional_test_result": "fail",
+      "error_codes": [
+        "OBC_OVERVOLTAGE",
+        "RELAY_STUCK"
+      ]
+    },
+    "safety_data": {
+      "physical_damage": "moderate"
+    },
+    "asset_id": "EV-ONB-023",
+    "economic_data": {
+      "reuse_value": 750,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 110,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 35,
+      "recovery_value": 85
+    }
+  },
+  {
+    "component": "Camera",
+    "manufacturer": "Sony",
+    "model": "IMX490-EV",
+    "year": 2022,
+    "condition": "excellent",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "Lens clear, no damage"
+    },
+    "asset_id": "EV-CAM-024",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Radar Sensor",
+    "manufacturer": "Continental",
+    "model": "ARS540",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-RAD-025",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Ultrasonic Sensor",
+    "manufacturer": "Bosch",
+    "model": "USS-Gen6",
+    "year": 2020,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Minor paint damage on sensor face"
+    },
+    "asset_id": "EV-ULT-026",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "CAN Bus",
+    "manufacturer": "Vector",
+    "model": "VN1640A",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-CAN-027",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "GPS Module",
+    "manufacturer": "u-blox",
+    "model": "NEO-M9N",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-GPS-028",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Touchscreen",
+    "manufacturer": "LG Display",
+    "model": "12.3-OLED-EV",
+    "year": 2021,
+    "condition": "excellent",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "No scratches, all pixels functional"
+    },
+    "asset_id": "EV-TOU-029",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Instrument Cluster",
+    "manufacturer": "Continental",
+    "model": "IC-LCD-10",
+    "year": 2019,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Minor backlight bleed, 2 dead pixels"
+    },
+    "asset_id": "EV-INS-030",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Audio Amplifier",
+    "manufacturer": "Harman",
+    "model": "JBL-Pro-8Ch",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "Clean, no corrosion"
+    },
+    "asset_id": "EV-AUD-031",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "LED Lighting",
+    "manufacturer": "Hella",
+    "model": "LED-HL-Matrix",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "All LEDs functional, lens clear"
+    },
+    "asset_id": "EV-LED-032",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "HVAC Controller",
+    "manufacturer": "Valeo",
+    "model": "HVAC-EV-A1",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-HVA-033",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Wireless Charging Module",
+    "manufacturer": "WiTricity",
+    "model": "DRIVE-11kW",
+    "year": 2022,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-WIR-034",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "Unknown",
+    "condition": "unknown",
+    "diagnostic_data": {
+      "soh": 55
+    },
+    "asset_id": "EV-BAT-035",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Motor Controller",
+    "manufacturer": "Sevcon",
+    "model": "Gen4-Size6",
+    "year": 2017,
+    "condition": "poor",
+    "technical_data": {
+      "power_rating": 80,
+      "efficiency": 82,
+      "voltage_rating": 400,
+      "weight_kg": 65
+    },
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "error_codes": [
+        "OVERCURRENT",
+        "TEMP_SENSOR_FAULT",
+        "CAN_TIMEOUT",
+        "MOTOR_STALL"
+      ]
+    },
+    "asset_id": "EV-MOT-036",
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    }
+  },
+  {
+    "component": "Capacitor",
+    "manufacturer": "KEMET",
+    "model": "DC-LINK-450V",
+    "year": 2019,
+    "condition": "fair",
+    "technical_data": {
+      "voltage_rating": 450
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-CAP-037",
+    "economic_data": {}
+  },
+  {
+    "component": "Contactor",
+    "manufacturer": "TE Connectivity",
+    "model": "EV200-HV",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-CON-038",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Current Sensor",
+    "manufacturer": "LEM",
+    "model": "DHAB-S24",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-CUR-039",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Battery Connector",
+    "manufacturer": "Amphenol",
+    "model": "HV-800-Plus",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "No arc marks or corrosion"
+    },
+    "asset_id": "EV-BAT-040",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "PCB",
+    "manufacturer": "Foxconn",
+    "model": "PCBA-INV-R3",
+    "year": 2020,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Minor solder joint fatigue on power stage"
+    },
+    "asset_id": "EV-PCB-041",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Permanent Magnet",
+    "manufacturer": "Shin-Etsu",
+    "model": "N52-Arc-EV",
+    "year": 2019,
+    "condition": "good",
+    "material_data": {
+      "rare_earth_content": true,
+      "primary_materials": [
+        "neodymium",
+        "iron",
+        "boron",
+        "dysprosium"
+      ],
+      "recyclable_fraction": 95
+    },
+    "diagnostic_data": {
+      "visual_inspection": "No demagnetization observed"
+    },
+    "asset_id": "EV-PER-042",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Gateway ECU",
+    "manufacturer": "NXP",
+    "model": "S32G-GW",
+    "year": 2022,
+    "condition": "excellent",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "asset_id": "EV-GAT-043",
+    "technical_data": {
+      "weight_kg": 2.5
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    }
+  },
+  {
+    "component": "Charging Communication Module",
+    "manufacturer": "Qualcomm",
+    "model": "QC-EVSE-PLC",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-CHA-044",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Protection Circuit",
+    "manufacturer": "Littelfuse",
+    "model": "EV-PROT-500A",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-PRO-045",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Voltage Sensor",
+    "manufacturer": "LEM",
+    "model": "LV25-P",
+    "year": 2019,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-VOL-046",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Pressure Sensor",
+    "manufacturer": "Bosch",
+    "model": "BMP-EV-390",
+    "year": 2020,
+    "condition": "failed",
+    "diagnostic_data": {
+      "functional_test_result": "fail",
+      "error_codes": [
+        "SENSOR_DRIFT_CRITICAL"
+      ]
+    },
+    "asset_id": "EV-PRE-047",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Speaker",
+    "manufacturer": "Bose",
+    "model": "EV-Premium-6x9",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "Cone intact, no rattling"
+    },
+    "asset_id": "EV-SPE-048",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "USB Charging Module",
+    "manufacturer": "Texas Instruments",
+    "model": "TPS-USB-PD",
+    "year": 2022,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-USB-049",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Electric Compressor Controller",
+    "manufacturer": "Hanon Systems",
+    "model": "ECC-R1234yf",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-ELE-050",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Bearing",
+    "manufacturer": "SKF",
+    "model": "HB-EV-6310",
+    "year": 2019,
+    "condition": "poor",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Excessive play detected, grease contamination"
+    },
+    "asset_id": "EV-BEA-051",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Traction Motor",
+    "manufacturer": "Unknown",
+    "year": 2020,
+    "condition": "unknown",
+    "asset_id": "EV-TRA-052",
+    "technical_data": {
+      "weight_kg": 65
+    },
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    }
+  },
+  {
+    "component": "BMS",
+    "manufacturer": "CATL",
+    "year": 2018,
+    "condition": "poor",
+    "diagnostic_data": {
+      "functional_test_result": "fail",
+      "error_codes": [
+        "COMM_FAIL",
+        "CELL_OV",
+        "TEMP_SENSOR_OPEN"
+      ]
+    },
+    "asset_id": "EV-BMS-053",
+    "technical_data": {
+      "weight_kg": 2.5
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    }
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "BorgWarner",
+    "model": "INV-SiC-200",
+    "year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "power_rating": 200,
+      "efficiency": 98,
+      "voltage_rating": 800,
+      "technology": "SiC",
+      "weight_kg": 16
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "asset_id": "EV-INV-054",
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    }
+  },
+  {
+    "component": "Headlamp Control Module",
+    "manufacturer": "Hella",
+    "model": "HCM-ADB-V2",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-HEA-055",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Charging Relay",
+    "manufacturer": "Panasonic",
+    "model": "EV-Relay-40A",
+    "year": 2020,
+    "condition": "fair",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "Minor contact wear visible"
+    },
+    "asset_id": "EV-CHA-056",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Proximity Sensor",
+    "manufacturer": "IFM",
+    "model": "IGT-EV-500",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-PRO-057",
+    "technical_data": {
+      "weight_kg": 1.2
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    }
+  },
+  {
+    "component": "Motor Housing",
+    "manufacturer": "Magna",
+    "model": "MH-AL-250",
+    "year": 2020,
+    "condition": "good",
+    "material_data": {
+      "primary_materials": [
+        "aluminum",
+        "steel"
+      ],
+      "recyclable_fraction": 98
+    },
+    "diagnostic_data": {
+      "visual_inspection": "No cracks or corrosion, mounting points intact"
+    },
+    "asset_id": "EV-MOT-058",
+    "technical_data": {
+      "weight_kg": 65
+    },
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    }
+  },
+  {
+    "component": "Cooling Component",
+    "manufacturer": "Dana",
+    "model": "CoolPlate-EV-V3",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "visual_inspection": "No leaks, channels clear"
+    },
+    "asset_id": "EV-COO-059",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Fuse",
+    "manufacturer": "Littelfuse",
+    "model": "MEGA-EV-250A",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-FUS-060",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Seat Heater Module",
+    "manufacturer": "Gentherm",
+    "model": "SH-EV-350W",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-SEA-061",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Infotainment Display",
+    "manufacturer": "Sharp",
+    "model": "15.5-LCD-EV",
+    "year": 2021,
+    "condition": "poor",
+    "diagnostic_data": {
+      "functional_test_result": "degraded",
+      "visual_inspection": "Cracked bezel, touch response intermittent, display lines visible"
+    },
+    "asset_id": "EV-INF-062",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Transformer",
+    "manufacturer": "TDK",
+    "model": "PQ-EV-3K3",
+    "year": 2019,
+    "condition": "good",
+    "technical_data": {
+      "power_rating": 3.3,
+      "voltage_rating": 400
+    },
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-TRA-063",
+    "economic_data": {}
+  },
+  {
+    "component": "Busbar",
+    "manufacturer": "Rogers",
+    "model": "BB-CU-HV",
+    "year": 2020,
+    "condition": "good",
+    "material_data": {
+      "primary_materials": [
+        "copper"
+      ],
+      "recyclable_fraction": 99
+    },
+    "diagnostic_data": {
+      "visual_inspection": "No discoloration or arcing marks"
+    },
+    "asset_id": "EV-BUS-064",
+    "technical_data": {},
+    "economic_data": {}
+  },
+  {
+    "component": "Body Control Module",
+    "manufacturer": "Aptiv",
+    "model": "BCM-EV-G4",
+    "year": 2021,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass",
+      "error_codes": []
+    },
+    "asset_id": "EV-BOD-065",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "AESC",
+    "model": "ZE1-24",
+    "year": 2017,
+    "vehicle_make": "Nissan",
+    "vehicle_model": "Leaf",
+    "condition": "poor",
+    "technical_data": {
+      "voltage_rating": 360,
+      "capacity": 40,
+      "technology": "NMC",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 35,
+      "cycle_count": 3800,
+      "internal_resistance": 150,
+      "cell_imbalance": 90,
+      "thermal_history": "Extended high-temperature operation in hot climate",
+      "functional_test_result": "fail"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "medium",
+      "physical_damage": "minor"
+    },
+    "asset_id": "EV-BAT-066",
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "V2X Module",
+    "manufacturer": "Qualcomm",
+    "model": "C-V2X-9150",
+    "year": 2023,
+    "condition": "excellent",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-V2X-067",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "4G Module",
+    "manufacturer": "Quectel",
+    "model": "AG35-EV",
+    "year": 2020,
+    "condition": "good",
+    "diagnostic_data": {
+      "functional_test_result": "pass"
+    },
+    "asset_id": "EV-4G--068",
+    "technical_data": {
+      "weight_kg": 28
+    },
+    "economic_data": {
+      "reuse_value": 650,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    }
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "BYD",
+    "model": "Blade-C4-135",
+    "year": 2022,
+    "vehicle_make": "BYD",
+    "vehicle_model": "Han EV",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 384,
+      "capacity": 85,
+      "energy_density": 150,
+      "technology": "LFP",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 89,
+      "soc": 55,
+      "cycle_count": 620,
+      "internal_resistance": 28,
+      "cell_imbalance": 9,
+      "thermal_history": "Normal range, no over-temp",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 950,
+      "refurbishment_value": 650,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-069"
+  },
+  {
+    "component": "Permanent Magnet",
+    "manufacturer": "Hitachi Metals",
+    "model": "NEOMAX-N52H",
+    "year": 2021,
+    "vehicle_make": "Porsche",
+    "vehicle_model": "Taycan 4S",
+    "vehicle_year": 2021,
+    "condition": "excellent",
+    "technical_data": {
+      "remanence_br_tesla": 1.45,
+      "coercivity_hcj_ka_m": 1500,
+      "max_temp_c": 180,
+      "weight_kg": 4.56,
+      "material": "NdFeB"
+    },
+    "diagnostic_data": {
+      "magnetic_flux_density_percent": 98.2,
+      "thermal_demagnetization_percent": 1.2,
+      "surface_coating_integrity": "pass",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 432,
+      "refurbishment_value": 360,
+      "estimated_repair_cost": 40,
+      "estimated_testing_cost": 50,
+      "estimated_logistics_cost": 30,
+      "recovery_value": 110
+    },
+    "asset_id": "EV-PER-070"
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "BorgWarner",
+    "model": "Viper-SiC-800V",
+    "year": 2022,
+    "vehicle_make": "Hyundai",
+    "vehicle_model": "Ioniq 5",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 800,
+      "power_kw": 220,
+      "efficiency_percent": 98.7,
+      "technology": "SiC MOSFET",
+      "weight_kg": 11.09
+    },
+    "diagnostic_data": {
+      "gate_driver_integrity": "nominal",
+      "switching_frequency_khz": 20,
+      "leakage_current_ma": 0.4,
+      "thermal_cycles": 1100,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    },
+    "asset_id": "EV-INV-071"
+  },
+  {
+    "component": "Onboard Charger",
+    "manufacturer": "Valeo",
+    "model": "OBC-22kW-TriPhase",
+    "year": 2020,
+    "vehicle_make": "Renault",
+    "vehicle_model": "Zoe",
+    "vehicle_year": 2020,
+    "condition": "fair",
+    "technical_data": {
+      "ac_input_voltage": 400,
+      "power_kw": 22,
+      "output_voltage_range": "250-450V",
+      "cooling": "Liquid cooled",
+      "weight_kg": 9.59
+    },
+    "diagnostic_data": {
+      "ac_dc_efficiency": 93.5,
+      "power_factor": 0.98,
+      "dielectric_isolation_gohm": 1.8,
+      "functional_test_result": "minor_dc_ripple"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "minor enclosure scratch"
+    },
+    "economic_data": {
+      "reuse_value": 750,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 110,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 35,
+      "recovery_value": 85
+    },
+    "asset_id": "EV-ONB-072"
+  },
+  {
+    "component": "DC-DC Converter",
+    "manufacturer": "Denso",
+    "model": "DDC-3.5kW-400V",
+    "year": 2021,
+    "vehicle_make": "Toyota",
+    "vehicle_model": "bZ4X",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "input_voltage": 400,
+      "output_voltage": 14,
+      "continuous_current_a": 250,
+      "efficiency": 95.8,
+      "weight_kg": 4.17
+    },
+    "diagnostic_data": {
+      "voltage_regulation_error": 0.05,
+      "ripple_voltage_mv": 35,
+      "can_bus_communication": "active",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 450,
+      "refurbishment_value": 280,
+      "estimated_repair_cost": 75,
+      "estimated_testing_cost": 40,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 50
+    },
+    "asset_id": "EV-DC--073"
+  },
+  {
+    "component": "BMS",
+    "manufacturer": "NXP Semiconductors",
+    "model": "MC33771C-Controller",
+    "year": 2022,
+    "vehicle_make": "Ford",
+    "vehicle_model": "Mustang Mach-E",
+    "vehicle_year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "channel_count": 14,
+      "voltage_measurement_accuracy_mv": 0.8,
+      "iso_spi_speed_mbps": 2.0,
+      "operating_temp_c": "-40 to 125",
+      "weight_kg": 1.11
+    },
+    "diagnostic_data": {
+      "cell_monitoring_drift": 0.1,
+      "eprom_integrity": "verified",
+      "fault_dtc_count": 0,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    },
+    "asset_id": "EV-BMS-074"
+  },
+  {
+    "component": "Camera",
+    "manufacturer": "Mobileye",
+    "model": "EyeQ5-FrontTriFocal",
+    "year": 2023,
+    "vehicle_make": "Zeekr",
+    "vehicle_model": "001",
+    "vehicle_year": 2023,
+    "condition": "excellent",
+    "technical_data": {
+      "resolution": "8MP",
+      "fov_degrees": 120,
+      "frame_rate_fps": 60,
+      "interface": "GMSL2",
+      "weight_kg": 0.46
+    },
+    "diagnostic_data": {
+      "lens_clarity_index": 99.1,
+      "sensor_dead_pixels": 0,
+      "autocalibration_status": "locked",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-CAM-075"
+  },
+  {
+    "component": "Radar Sensor",
+    "manufacturer": "Continental",
+    "model": "ARS540-4D-Imaging",
+    "year": 2022,
+    "vehicle_make": "BMW",
+    "vehicle_model": "iX xDrive50",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "frequency_ghz": 77,
+      "range_meters": 300,
+      "azimuth_fov": 120,
+      "elevation_fov": 30,
+      "weight_kg": 0.57
+    },
+    "diagnostic_data": {
+      "rf_power_dbm": 12.8,
+      "target_detection_accuracy": 98.9,
+      "radome_attenuation_db": 0.4,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-RAD-076"
+  },
+  {
+    "component": "Infotainment Display",
+    "manufacturer": "LG Display",
+    "model": "OLED-Curved-33in",
+    "year": 2023,
+    "vehicle_make": "Cadillac",
+    "vehicle_model": "Lyriq",
+    "vehicle_year": 2023,
+    "condition": "good",
+    "technical_data": {
+      "resolution": "9K (8960x1320)",
+      "brightness_nits": 1000,
+      "touch_type": "Capacitive multi-touch",
+      "weight_kg": 3.61
+    },
+    "diagnostic_data": {
+      "burn_in_detected": false,
+      "touch_responsiveness_ms": 12,
+      "backlight_uniformity_percent": 96.5,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 1127,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 90,
+      "estimated_testing_cost": 75,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 80
+    },
+    "asset_id": "EV-INF-077"
+  },
+  {
+    "component": "Ultrasonic Sensor",
+    "manufacturer": "Bosch",
+    "model": "USS6-PDC",
+    "year": 2021,
+    "vehicle_make": "Volkswagen",
+    "vehicle_model": "ID.4",
+    "vehicle_year": 2021,
+    "condition": "excellent",
+    "technical_data": {
+      "frequency_khz": 48,
+      "detection_range_meters": "0.15 - 5.5",
+      "interface": "LIN 2.2",
+      "weight_kg": 0.08
+    },
+    "diagnostic_data": {
+      "transducer_resonance_khz": 48.1,
+      "echo_amplitude_db": 82,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-ULT-078"
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "SK On",
+    "model": "NCM-9-half-half",
+    "year": 2022,
+    "vehicle_make": "Ford",
+    "vehicle_model": "F-150 Lightning",
+    "vehicle_year": 2022,
+    "condition": "poor",
+    "technical_data": {
+      "voltage_rating": 370,
+      "capacity": 131,
+      "technology": "NCM 90/05/05",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 52,
+      "soc": 15,
+      "cycle_count": 2450,
+      "internal_resistance": 98,
+      "cell_imbalance": 45,
+      "thermal_history": "Exceeded 60C on 3 fast-charge sessions",
+      "functional_test_result": "fail"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "high",
+      "physical_damage": "micro-swelling observed on pouch 4"
+    },
+    "economic_data": {
+      "reuse_value": 424,
+      "refurbishment_value": 600,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-079"
+  },
+  {
+    "component": "Contactor",
+    "manufacturer": "Gigavac",
+    "model": "GX14-Hermetic-HV",
+    "year": 2021,
+    "vehicle_make": "Tesla",
+    "vehicle_model": "Model S Plaid",
+    "vehicle_year": 2021,
+    "condition": "fair",
+    "technical_data": {
+      "continuous_current_a": 400,
+      "rated_voltage_vdc": 800,
+      "coil_voltage_vdc": 12,
+      "weight_kg": 0.84
+    },
+    "diagnostic_data": {
+      "contact_resistance_mohm": 1.2,
+      "insulation_resistance_gohm": 12.5,
+      "actuation_time_ms": 18,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "minor pitting on auxiliary contact"
+    },
+    "economic_data": {
+      "reuse_value": 216,
+      "refurbishment_value": 290,
+      "estimated_repair_cost": 50,
+      "estimated_testing_cost": 30,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 25
+    },
+    "asset_id": "EV-CON-080"
+  },
+  {
+    "component": "Cooling Component",
+    "manufacturer": "Modine",
+    "model": "Chiller-Stack-8kW",
+    "year": 2020,
+    "vehicle_make": "Polestar",
+    "vehicle_model": "Polestar 2",
+    "vehicle_year": 2020,
+    "condition": "good",
+    "technical_data": {
+      "refrigerant": "R1234yf",
+      "heat_exchange_kw": 8.0,
+      "fluid_type": "50/50 Water-Glycol",
+      "weight_kg": 3.42
+    },
+    "diagnostic_data": {
+      "pressure_drop_kpa": 14.2,
+      "helium_leak_rate_mbar_l_s": "1e-6",
+      "flow_rate_lpm": 18.5,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 291,
+      "refurbishment_value": 250,
+      "estimated_repair_cost": 40,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 45
+    },
+    "asset_id": "EV-COO-081"
+  },
+  {
+    "component": "Gateway ECU",
+    "manufacturer": "Continental",
+    "model": "CGW-CANFD-Eth",
+    "year": 2022,
+    "vehicle_make": "Audi",
+    "vehicle_model": "e-tron GT",
+    "vehicle_year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "processor": "NXP S32G274A Quad Cortex-A53",
+      "can_fd_channels": 8,
+      "ethernet_ports": 4,
+      "weight_kg": 0.66
+    },
+    "diagnostic_data": {
+      "ethernet_packet_loss_percent": 0.0,
+      "memory_checksum": "valid",
+      "sleep_current_ua": 85,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    },
+    "asset_id": "EV-GAT-082"
+  },
+  {
+    "component": "Motor Housing",
+    "manufacturer": "Magna Powertrain",
+    "model": "eDS-Mid-AluminumDieCast",
+    "year": 2021,
+    "vehicle_make": "Jaguar",
+    "vehicle_model": "I-PACE",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "alloy": "A380 Die-cast Aluminum",
+      "cooling_jacket_integral": true,
+      "burst_pressure_bar": 15,
+      "weight_kg": 18.85
+    },
+    "diagnostic_data": {
+      "dimensional_tolerance_mm": 0.02,
+      "crack_detection_dye_penetrant": "clear",
+      "thread_integrity": "pass",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "superficial surface oxidation"
+    },
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    },
+    "asset_id": "EV-MOT-083"
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "BYD",
+    "model": "Blade-C4-135",
+    "year": 2022,
+    "vehicle_make": "BYD",
+    "vehicle_model": "Han EV",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 384,
+      "capacity": 85,
+      "energy_density": 150,
+      "technology": "LFP",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 89,
+      "soc": 55,
+      "cycle_count": 620,
+      "internal_resistance": 28,
+      "cell_imbalance": 9,
+      "thermal_history": "Normal range, no over-temp",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 950,
+      "refurbishment_value": 650,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-084"
+  },
+  {
+    "component": "Permanent Magnet",
+    "manufacturer": "Hitachi Metals",
+    "model": "NEOMAX-N52H",
+    "year": 2021,
+    "vehicle_make": "Porsche",
+    "vehicle_model": "Taycan 4S",
+    "vehicle_year": 2021,
+    "condition": "excellent",
+    "technical_data": {
+      "remanence_br_tesla": 1.45,
+      "coercivity_hcj_ka_m": 1500,
+      "max_temp_c": 180,
+      "weight_kg": 4.63,
+      "material": "NdFeB"
+    },
+    "diagnostic_data": {
+      "magnetic_flux_density_percent": 98.2,
+      "thermal_demagnetization_percent": 1.2,
+      "surface_coating_integrity": "pass",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 432,
+      "refurbishment_value": 360,
+      "estimated_repair_cost": 40,
+      "estimated_testing_cost": 50,
+      "estimated_logistics_cost": 30,
+      "recovery_value": 110
+    },
+    "asset_id": "EV-PER-085"
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "BorgWarner",
+    "model": "Viper-SiC-800V",
+    "year": 2022,
+    "vehicle_make": "Hyundai",
+    "vehicle_model": "Ioniq 5",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 800,
+      "power_kw": 220,
+      "efficiency_percent": 98.7,
+      "technology": "SiC MOSFET",
+      "weight_kg": 11.25
+    },
+    "diagnostic_data": {
+      "gate_driver_integrity": "nominal",
+      "switching_frequency_khz": 20,
+      "leakage_current_ma": 0.4,
+      "thermal_cycles": 1100,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    },
+    "asset_id": "EV-INV-086"
+  },
+  {
+    "component": "Onboard Charger",
+    "manufacturer": "Valeo",
+    "model": "OBC-22kW-TriPhase",
+    "year": 2020,
+    "vehicle_make": "Renault",
+    "vehicle_model": "Zoe",
+    "vehicle_year": 2020,
+    "condition": "fair",
+    "technical_data": {
+      "ac_input_voltage": 400,
+      "power_kw": 22,
+      "output_voltage_range": "250-450V",
+      "cooling": "Liquid cooled",
+      "weight_kg": 9.73
+    },
+    "diagnostic_data": {
+      "ac_dc_efficiency": 93.5,
+      "power_factor": 0.98,
+      "dielectric_isolation_gohm": 1.8,
+      "functional_test_result": "minor_dc_ripple"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "minor enclosure scratch"
+    },
+    "economic_data": {
+      "reuse_value": 750,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 110,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 35,
+      "recovery_value": 85
+    },
+    "asset_id": "EV-ONB-087"
+  },
+  {
+    "component": "DC-DC Converter",
+    "manufacturer": "Denso",
+    "model": "DDC-3.5kW-400V",
+    "year": 2021,
+    "vehicle_make": "Toyota",
+    "vehicle_model": "bZ4X",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "input_voltage": 400,
+      "output_voltage": 14,
+      "continuous_current_a": 250,
+      "efficiency": 95.8,
+      "weight_kg": 4.23
+    },
+    "diagnostic_data": {
+      "voltage_regulation_error": 0.05,
+      "ripple_voltage_mv": 35,
+      "can_bus_communication": "active",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 450,
+      "refurbishment_value": 280,
+      "estimated_repair_cost": 75,
+      "estimated_testing_cost": 40,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 50
+    },
+    "asset_id": "EV-DC--088"
+  },
+  {
+    "component": "BMS",
+    "manufacturer": "NXP Semiconductors",
+    "model": "MC33771C-Controller",
+    "year": 2022,
+    "vehicle_make": "Ford",
+    "vehicle_model": "Mustang Mach-E",
+    "vehicle_year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "channel_count": 14,
+      "voltage_measurement_accuracy_mv": 0.8,
+      "iso_spi_speed_mbps": 2.0,
+      "operating_temp_c": "-40 to 125",
+      "weight_kg": 1.12
+    },
+    "diagnostic_data": {
+      "cell_monitoring_drift": 0.1,
+      "eprom_integrity": "verified",
+      "fault_dtc_count": 0,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    },
+    "asset_id": "EV-BMS-089"
+  },
+  {
+    "component": "Camera",
+    "manufacturer": "Mobileye",
+    "model": "EyeQ5-FrontTriFocal",
+    "year": 2023,
+    "vehicle_make": "Zeekr",
+    "vehicle_model": "001",
+    "vehicle_year": 2023,
+    "condition": "excellent",
+    "technical_data": {
+      "resolution": "8MP",
+      "fov_degrees": 120,
+      "frame_rate_fps": 60,
+      "interface": "GMSL2",
+      "weight_kg": 0.47
+    },
+    "diagnostic_data": {
+      "lens_clarity_index": 99.1,
+      "sensor_dead_pixels": 0,
+      "autocalibration_status": "locked",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-CAM-090"
+  },
+  {
+    "component": "Radar Sensor",
+    "manufacturer": "Continental",
+    "model": "ARS540-4D-Imaging",
+    "year": 2022,
+    "vehicle_make": "BMW",
+    "vehicle_model": "iX xDrive50",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "frequency_ghz": 77,
+      "range_meters": 300,
+      "azimuth_fov": 120,
+      "elevation_fov": 30,
+      "weight_kg": 0.52
+    },
+    "diagnostic_data": {
+      "rf_power_dbm": 12.8,
+      "target_detection_accuracy": 98.9,
+      "radome_attenuation_db": 0.4,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-RAD-091"
+  },
+  {
+    "component": "Infotainment Display",
+    "manufacturer": "LG Display",
+    "model": "OLED-Curved-33in",
+    "year": 2023,
+    "vehicle_make": "Cadillac",
+    "vehicle_model": "Lyriq",
+    "vehicle_year": 2023,
+    "condition": "good",
+    "technical_data": {
+      "resolution": "9K (8960x1320)",
+      "brightness_nits": 1000,
+      "touch_type": "Capacitive multi-touch",
+      "weight_kg": 3.66
+    },
+    "diagnostic_data": {
+      "burn_in_detected": false,
+      "touch_responsiveness_ms": 12,
+      "backlight_uniformity_percent": 96.5,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 1127,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 90,
+      "estimated_testing_cost": 75,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 80
+    },
+    "asset_id": "EV-INF-092"
+  },
+  {
+    "component": "Ultrasonic Sensor",
+    "manufacturer": "Bosch",
+    "model": "USS6-PDC",
+    "year": 2021,
+    "vehicle_make": "Volkswagen",
+    "vehicle_model": "ID.4",
+    "vehicle_year": 2021,
+    "condition": "excellent",
+    "technical_data": {
+      "frequency_khz": 48,
+      "detection_range_meters": "0.15 - 5.5",
+      "interface": "LIN 2.2",
+      "weight_kg": 0.08
+    },
+    "diagnostic_data": {
+      "transducer_resonance_khz": 48.1,
+      "echo_amplitude_db": 82,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-ULT-093"
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "SK On",
+    "model": "NCM-9-half-half",
+    "year": 2022,
+    "vehicle_make": "Ford",
+    "vehicle_model": "F-150 Lightning",
+    "vehicle_year": 2022,
+    "condition": "poor",
+    "technical_data": {
+      "voltage_rating": 370,
+      "capacity": 131,
+      "technology": "NCM 90/05/05",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 52,
+      "soc": 15,
+      "cycle_count": 2450,
+      "internal_resistance": 98,
+      "cell_imbalance": 45,
+      "thermal_history": "Exceeded 60C on 3 fast-charge sessions",
+      "functional_test_result": "fail"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "high",
+      "physical_damage": "micro-swelling observed on pouch 4"
+    },
+    "economic_data": {
+      "reuse_value": 424,
+      "refurbishment_value": 600,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-094"
+  },
+  {
+    "component": "Contactor",
+    "manufacturer": "Gigavac",
+    "model": "GX14-Hermetic-HV",
+    "year": 2021,
+    "vehicle_make": "Tesla",
+    "vehicle_model": "Model S Plaid",
+    "vehicle_year": 2021,
+    "condition": "fair",
+    "technical_data": {
+      "continuous_current_a": 400,
+      "rated_voltage_vdc": 800,
+      "coil_voltage_vdc": 12,
+      "weight_kg": 0.86
+    },
+    "diagnostic_data": {
+      "contact_resistance_mohm": 1.2,
+      "insulation_resistance_gohm": 12.5,
+      "actuation_time_ms": 18,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "minor pitting on auxiliary contact"
+    },
+    "economic_data": {
+      "reuse_value": 216,
+      "refurbishment_value": 290,
+      "estimated_repair_cost": 50,
+      "estimated_testing_cost": 30,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 25
+    },
+    "asset_id": "EV-CON-095"
+  },
+  {
+    "component": "Cooling Component",
+    "manufacturer": "Modine",
+    "model": "Chiller-Stack-8kW",
+    "year": 2020,
+    "vehicle_make": "Polestar",
+    "vehicle_model": "Polestar 2",
+    "vehicle_year": 2020,
+    "condition": "good",
+    "technical_data": {
+      "refrigerant": "R1234yf",
+      "heat_exchange_kw": 8.0,
+      "fluid_type": "50/50 Water-Glycol",
+      "weight_kg": 3.47
+    },
+    "diagnostic_data": {
+      "pressure_drop_kpa": 14.2,
+      "helium_leak_rate_mbar_l_s": "1e-6",
+      "flow_rate_lpm": 18.5,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 291,
+      "refurbishment_value": 250,
+      "estimated_repair_cost": 40,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 45
+    },
+    "asset_id": "EV-COO-096"
+  },
+  {
+    "component": "Gateway ECU",
+    "manufacturer": "Continental",
+    "model": "CGW-CANFD-Eth",
+    "year": 2022,
+    "vehicle_make": "Audi",
+    "vehicle_model": "e-tron GT",
+    "vehicle_year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "processor": "NXP S32G274A Quad Cortex-A53",
+      "can_fd_channels": 8,
+      "ethernet_ports": 4,
+      "weight_kg": 0.67
+    },
+    "diagnostic_data": {
+      "ethernet_packet_loss_percent": 0.0,
+      "memory_checksum": "valid",
+      "sleep_current_ua": 85,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    },
+    "asset_id": "EV-GAT-097"
+  },
+  {
+    "component": "Motor Housing",
+    "manufacturer": "Magna Powertrain",
+    "model": "eDS-Mid-AluminumDieCast",
+    "year": 2021,
+    "vehicle_make": "Jaguar",
+    "vehicle_model": "I-PACE",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "alloy": "A380 Die-cast Aluminum",
+      "cooling_jacket_integral": true,
+      "burst_pressure_bar": 15,
+      "weight_kg": 17.29
+    },
+    "diagnostic_data": {
+      "dimensional_tolerance_mm": 0.02,
+      "crack_detection_dye_penetrant": "clear",
+      "thread_integrity": "pass",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "superficial surface oxidation"
+    },
+    "economic_data": {
+      "reuse_value": 2200,
+      "refurbishment_value": 1300,
+      "estimated_repair_cost": 250,
+      "estimated_testing_cost": 120,
+      "estimated_logistics_cost": 80,
+      "recovery_value": 320
+    },
+    "asset_id": "EV-MOT-098"
+  },
+  {
+    "component": "Battery Module",
+    "manufacturer": "BYD",
+    "model": "Blade-C4-135",
+    "year": 2022,
+    "vehicle_make": "BYD",
+    "vehicle_model": "Han EV",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 384,
+      "capacity": 85,
+      "energy_density": 150,
+      "technology": "LFP",
+      "weight_kg": 28
+    },
+    "diagnostic_data": {
+      "soh": 89,
+      "soc": 55,
+      "cycle_count": 620,
+      "internal_resistance": 28,
+      "cell_imbalance": 9,
+      "thermal_history": "Normal range, no over-temp",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 950,
+      "refurbishment_value": 650,
+      "estimated_repair_cost": 120,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 40,
+      "recovery_value": 140
+    },
+    "asset_id": "EV-BAT-099"
+  },
+  {
+    "component": "Permanent Magnet",
+    "manufacturer": "Hitachi Metals",
+    "model": "NEOMAX-N52H",
+    "year": 2021,
+    "vehicle_make": "Porsche",
+    "vehicle_model": "Taycan 4S",
+    "vehicle_year": 2021,
+    "condition": "excellent",
+    "technical_data": {
+      "remanence_br_tesla": 1.45,
+      "coercivity_hcj_ka_m": 1500,
+      "max_temp_c": 180,
+      "weight_kg": 4.7,
+      "material": "NdFeB"
+    },
+    "diagnostic_data": {
+      "magnetic_flux_density_percent": 98.2,
+      "thermal_demagnetization_percent": 1.2,
+      "surface_coating_integrity": "pass",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 432,
+      "refurbishment_value": 360,
+      "estimated_repair_cost": 40,
+      "estimated_testing_cost": 50,
+      "estimated_logistics_cost": 30,
+      "recovery_value": 110
+    },
+    "asset_id": "EV-PER-100"
+  },
+  {
+    "component": "Inverter",
+    "manufacturer": "BorgWarner",
+    "model": "Viper-SiC-800V",
+    "year": 2022,
+    "vehicle_make": "Hyundai",
+    "vehicle_model": "Ioniq 5",
+    "vehicle_year": 2022,
+    "condition": "good",
+    "technical_data": {
+      "voltage_rating": 800,
+      "power_kw": 220,
+      "efficiency_percent": 98.7,
+      "technology": "SiC MOSFET",
+      "weight_kg": 11.42
+    },
+    "diagnostic_data": {
+      "gate_driver_integrity": "nominal",
+      "switching_frequency_khz": 20,
+      "leakage_current_ma": 0.4,
+      "thermal_cycles": 1100,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 1400,
+      "refurbishment_value": 850,
+      "estimated_repair_cost": 180,
+      "estimated_testing_cost": 90,
+      "estimated_logistics_cost": 50,
+      "recovery_value": 180
+    },
+    "asset_id": "EV-INV-101"
+  },
+  {
+    "component": "Onboard Charger",
+    "manufacturer": "Valeo",
+    "model": "OBC-22kW-TriPhase",
+    "year": 2020,
+    "vehicle_make": "Renault",
+    "vehicle_model": "Zoe",
+    "vehicle_year": 2020,
+    "condition": "fair",
+    "technical_data": {
+      "ac_input_voltage": 400,
+      "power_kw": 22,
+      "output_voltage_range": "250-450V",
+      "cooling": "Liquid cooled",
+      "weight_kg": 9.87
+    },
+    "diagnostic_data": {
+      "ac_dc_efficiency": 93.5,
+      "power_factor": 0.98,
+      "dielectric_isolation_gohm": 1.8,
+      "functional_test_result": "minor_dc_ripple"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "minor enclosure scratch"
+    },
+    "economic_data": {
+      "reuse_value": 750,
+      "refurbishment_value": 450,
+      "estimated_repair_cost": 110,
+      "estimated_testing_cost": 60,
+      "estimated_logistics_cost": 35,
+      "recovery_value": 85
+    },
+    "asset_id": "EV-ONB-102"
+  },
+  {
+    "component": "DC-DC Converter",
+    "manufacturer": "Denso",
+    "model": "DDC-3.5kW-400V",
+    "year": 2021,
+    "vehicle_make": "Toyota",
+    "vehicle_model": "bZ4X",
+    "vehicle_year": 2021,
+    "condition": "good",
+    "technical_data": {
+      "input_voltage": 400,
+      "output_voltage": 14,
+      "continuous_current_a": 250,
+      "efficiency": 95.8,
+      "weight_kg": 4.29
+    },
+    "diagnostic_data": {
+      "voltage_regulation_error": 0.05,
+      "ripple_voltage_mv": 35,
+      "can_bus_communication": "active",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": true,
+      "thermal_risk": "low",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 450,
+      "refurbishment_value": 280,
+      "estimated_repair_cost": 75,
+      "estimated_testing_cost": 40,
+      "estimated_logistics_cost": 25,
+      "recovery_value": 50
+    },
+    "asset_id": "EV-DC--103"
+  },
+  {
+    "component": "BMS",
+    "manufacturer": "NXP Semiconductors",
+    "model": "MC33771C-Controller",
+    "year": 2022,
+    "vehicle_make": "Ford",
+    "vehicle_model": "Mustang Mach-E",
+    "vehicle_year": 2022,
+    "condition": "excellent",
+    "technical_data": {
+      "channel_count": 14,
+      "voltage_measurement_accuracy_mv": 0.8,
+      "iso_spi_speed_mbps": 2.0,
+      "operating_temp_c": "-40 to 125",
+      "weight_kg": 1.14
+    },
+    "diagnostic_data": {
+      "cell_monitoring_drift": 0.1,
+      "eprom_integrity": "verified",
+      "fault_dtc_count": 0,
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 380,
+      "refurbishment_value": 220,
+      "estimated_repair_cost": 60,
+      "estimated_testing_cost": 35,
+      "estimated_logistics_cost": 20,
+      "recovery_value": 30
+    },
+    "asset_id": "EV-BMS-104"
+  },
+  {
+    "component": "Camera",
+    "manufacturer": "Mobileye",
+    "model": "EyeQ5-FrontTriFocal",
+    "year": 2023,
+    "vehicle_make": "Zeekr",
+    "vehicle_model": "001",
+    "vehicle_year": 2023,
+    "condition": "excellent",
+    "technical_data": {
+      "resolution": "8MP",
+      "fov_degrees": 120,
+      "frame_rate_fps": 60,
+      "interface": "GMSL2",
+      "weight_kg": 0.43
+    },
+    "diagnostic_data": {
+      "lens_clarity_index": 99.1,
+      "sensor_dead_pixels": 0,
+      "autocalibration_status": "locked",
+      "functional_test_result": "pass"
+    },
+    "safety_data": {
+      "high_voltage": false,
+      "thermal_risk": "none",
+      "physical_damage": "none"
+    },
+    "economic_data": {
+      "reuse_value": 260,
+      "refurbishment_value": 150,
+      "estimated_repair_cost": 45,
+      "estimated_testing_cost": 25,
+      "estimated_logistics_cost": 15,
+      "recovery_value": 20
+    },
+    "asset_id": "EV-CAM-105"
+  }
+]

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Surface Layers (Deep Obsidian & Titanium) */
+  --bg-app: #080c0a;
+  --bg-surface: #101613;
+  --bg-surface-elevated: #151e19;
+  --bg-surface-card: #111814;
+  --bg-surface-hover: #17221c;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-focus: rgba(52, 211, 153, 0.35);
+
+  /* Typography Colors */
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --text-accent: #34d399;
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Primary Brand (Emerald Circularity) */
+  --brand-primary: #10b981;
+  --brand-primary-hover: #059669;
+  --brand-glow: rgba(16, 185, 129, 0.2);
+
+  /* Cohesive Enterprise Semantic Dispositions */
+  --disp-reuse-bg: rgba(16, 185, 129, 0.1);
+  --disp-reuse-border: rgba(52, 211, 153, 0.28);
+  --disp-reuse-text: #34d399;
+
+  --disp-refurb-bg: rgba(59, 130, 246, 0.1);
+  --disp-refurb-border: rgba(96, 165, 250, 0.28);
+  --disp-refurb-text: #60a5fa;
+
+  --disp-recycle-bg: rgba(245, 158, 11, 0.1);
+  --disp-recycle-border: rgba(251, 191, 36, 0.28);
+  --disp-recycle-text: #fbbf24;
+
+  --disp-assess-bg: rgba(239, 68, 68, 0.1);
+  --disp-assess-border: rgba(248, 113, 113, 0.28);
+  --disp-assess-text: #f87171;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* App Shell */
+.cognicycle-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(16, 185, 129, 0.08), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 90% 90%, rgba(59, 130, 246, 0.04), transparent 60%),
+    var(--bg-app);
+}
+
+.main-content-area {
+  flex: 1;
+  width: 100%;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-app);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 211, 153, 0.35);
+}
+
+/* Shared Semantic Disposition Badges */
+.disposition-badge,
+.disposition-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.disposition-badge.reuse,
+.disposition-tag.reuse {
+  background: var(--disp-reuse-bg);
+  color: var(--disp-reuse-text);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.disposition-badge.refurbish,
+.disposition-tag.refurbish {
+  background: var(--disp-refurb-bg);
+  color: var(--disp-refurb-text);
+  border: 1px solid var(--disp-refurb-border);
+}
+
+.disposition-badge.recycle,
+.disposition-tag.recycle {
+  background: var(--disp-recycle-bg);
+  color: var(--disp-recycle-text);
+  border: 1px solid var(--disp-recycle-border);
+}
+
+.disposition-badge.assessment_required,
+.disposition-tag.assessment_required {
+  background: var(--disp-assess-bg);
+  color: var(--disp-assess-text);
+  border: 1px solid var(--disp-assess-border);
+}
+
+button {
+  font-family: inherit;
+}

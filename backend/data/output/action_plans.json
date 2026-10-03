@@ -1,0 +1,266 @@
+{
+  "EV-BAT-001": {
+    "disposition": "REUSE",
+    "headline": "CATL CTP-3.0-A NMC 811 Module (Tesla Model 3) \u2013 Direct Second-Life Reuse Protocol",
+    "economic_assumptions": [
+      "Direct reuse at $650 value avoids $120 repair and $60 testing costs, yielding a $530 net margin versus $450 refurbishment pathway.",
+      "Capex savings of $200 per module versus new NMC 811 pack procurement, achieving 100% ROI on the $60 testing investment within one deployment cycle.",
+      "Logistics and handling at ~$40 per 28 kg unit preserves 92% of the $650 reuse valuation, far exceeding the $140 recovery scrap floor.",
+      "Aggregating 100 modules generates $65,000 in second-life revenue versus $14,000 from recycling, a 4.6x value uplift per asset."
+    ],
+    "environmental_assumptions": [
+      "Reusing the 28 kg NMC 811 module avoids ~1,200 kg CO2e of embodied emissions from virgin lithium, nickel, and cobalt extraction and cell manufacturing.",
+      "Conserves approximately 1.8 kg of lithium, 4.2 kg of nickel, and 0.9 kg of cobalt per module, reducing pressure on critical mineral supply chains.",
+      "Prevents 28 kg of aluminum and copper structural materials from entering scrap streams, saving ~450 kg CO2e in secondary smelting.",
+      "Extends functional life of 850-cycle cells to 1,500+ cycles in stationary storage, deferring end-of-life recycling by 3-5 years."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "De-energize & Verify",
+        "description": "Isolate CATL CTP-3.0-A module, verify 35 m\u03a9 internal resistance, and confirm 87% SOH via BMS handshake before handling."
+      },
+      {
+        "step": 2,
+        "title": "Visual & Thermal Inspection",
+        "description": "Inspect NMC 811 cells for swelling, electrolyte leaks, and connector integrity on the 28 kg Tesla Model 3 module."
+      },
+      {
+        "step": 3,
+        "title": "Functional Validation Test",
+        "description": "Run 10-minute charge/discharge profile to validate 850-cycle history and confirm no hidden cell imbalance exceeding 50 mV."
+      },
+      {
+        "step": 4,
+        "title": "Re-certify & Re-pair",
+        "description": "Re-pair module with compatible BMS, update firmware, and certify 87% SOH for second-life energy storage deployment."
+      },
+      {
+        "step": 5,
+        "title": "Logistics & Deployment",
+        "description": "Log asset EV-BAT-001 into circular inventory, tag with QR, and dispatch to second-life storage integration partner."
+      }
+    ],
+    "is_cached": false
+  },
+  "EV-CEL-006": {
+    "disposition": "REFURBISH",
+    "headline": "Panasonic 2170-NCA Cell (EV-CEL-006) Precision Refurbishment Protocol",
+    "economic_assumptions": [
+      "Refurbishing the 2020 Panasonic 2170-NCA cell at 76% SOH recovers ~65-70% of new-cell replacement cost, yielding a net margin of 35-45% after precision reconditioning and requalification testing.",
+      "Capex savings of approximately 40-50% versus procuring a new 5Ah NCA cell, with ROI on refurbishment equipment amortized over 18-24 months at current throughput.",
+      "Secondary-market resale value for a refurbished 76% SOH 2170-NCA cell supports a 25-35% premium over raw scrap recovery, maximizing revenue per cell.",
+      "Testing and logistics overhead is offset by the high residual value density of NCA chemistry, ensuring positive unit economics even at moderate refurbishment volumes."
+    ],
+    "environmental_assumptions": [
+      "Refurbishment avoids ~8-12 kg CO2e of embodied emissions per cell by conserving the existing NCA cathode, copper current collectors, and aluminum casing versus virgin manufacturing.",
+      "Conserves approximately 0.5-0.8 g of lithium, 1.2-1.8 g of nickel, and 0.3-0.5 g of cobalt per cell, reducing pressure on primary extraction supply chains.",
+      "Preserves ~15-20 g of high-purity copper and ~8-12 g of aluminum in the cell envelope, avoiding energy-intensive smelting and refining cycles.",
+      "Extending service life by 2-3 years through refurbishment defers end-of-life recycling burden and reduces total lifecycle carbon intensity by an estimated 30-40%."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "Safe Discharge & Baseline Telemetry",
+        "description": "Discharge EV-CEL-006 to 2.5V via controlled current, verify 3.7V nominal and 5Ah capacity baseline, log internal resistance and thermal response."
+      },
+      {
+        "step": 2,
+        "title": "Physical & Electrochemical Inspection",
+        "description": "Inspect 2170-NCA casing for micro-fractures, seal integrity, and terminal corrosion; confirm no swelling or electrolyte leakage before proceeding."
+      },
+      {
+        "step": 3,
+        "title": "Precision Reconditioning Cycle",
+        "description": "Perform formation cycling at 0.5C to restore SEI stability, rebalance internal impedance, and recover SOH toward 80-82% target."
+      },
+      {
+        "step": 4,
+        "title": "Post-Refurb Qualification Testing",
+        "description": "Run full capacity, internal resistance, and thermal profiling tests; validate 3.7V/5Ah NCA spec compliance and 80%+ SOH threshold."
+      },
+      {
+        "step": 5,
+        "title": "Certification & Deployment",
+        "description": "Apply CogniCycle refurbishment certification label, log SOH and cycle data to digital passport, and stage for secondary-market deployment."
+      }
+    ],
+    "is_cached": false
+  },
+  "EV-ECU-017": {
+    "disposition": "REUSE",
+    "headline": "Continental ECU-PT-400 Direct Reuse Protocol",
+    "economic_assumptions": [
+      "Direct reuse at $380 vs. $30 scrap recovery yields a $350 gross margin, a 12.7x value multiplier over recycling.",
+      "Avoided refurbishment Capex: skipping $60 repair and $35 testing saves $95 in processing costs, improving net margin to $325 after $20 logistics.",
+      "ROI on the $20 logistics spend is 1625%, making this the highest-leverage disposition in the ECU triage queue.",
+      "At 90% triage confidence, expected value of reuse ($342) exceeds refurbishment net ($125) by $217, confirming REUSE as the optimal pathway."
+    ],
+    "environmental_assumptions": [
+      "Reuse avoids remanufacturing embodied CO2e of ~18 kg CO2e per ECU, conserving the full carbon footprint of the 2.5 kg unit.",
+      "Preserves embedded virgin materials: ~0.4 kg copper in PCB traces, ~0.1 kg aluminum heat-sink, and rare-earth elements in inductive components.",
+      "Extends functional life of the 2020 Continental ECU-PT-400 by an estimated 5-8 years, deferring new semiconductor fabrication and associated water/energy use.",
+      "Avoids e-waste landfill diversion for the 2.5 kg unit, including hazardous solder and electrolytic capacitors."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "Clear P0100 & Verify Telemetry",
+        "description": "Clear P0100 code via Continental diagnostic tool, verify no recurrence over 30-min drive cycle, log SOH and sensor outputs."
+      },
+      {
+        "step": 2,
+        "title": "Physical & Connector Inspection",
+        "description": "Inspect 2.5 kg ECU-PT-400 for connector wear, corrosion, and thermal discoloration; confirm no physical damage before release."
+      },
+      {
+        "step": 3,
+        "title": "Bench Functional Validation",
+        "description": "Run full functional bench test: CAN bus response, sensor input validation, and output actuation to confirm pass status."
+      },
+      {
+        "step": 4,
+        "title": "Tag, Certify & Log",
+        "description": "Apply CogniCycle REUSE label, record asset ID EV-ECU-017, and update inventory with 90% confidence disposition flag."
+      },
+      {
+        "step": 5,
+        "title": "ESD Packaging & Dispatch",
+        "description": "Package in anti-static ESD bag, ship to remanufacturing partner within 48h to minimize idle logistics cost."
+      }
+    ],
+    "is_cached": false
+  },
+  "CUSTOM-BAT-999": {
+    "disposition": "RECYCLE",
+    "headline": "VoltMax Na-Ion-1 Sodium Pack (Rivian R1T) \u2014 End-of-Life Recycling Protocol",
+    "economic_assumptions": [
+      "Scrap recovery value for the 400 kg VoltMax Na-Ion-1 pack is estimated at $2,200, driven primarily by aluminum casing, copper busbars, and recoverable sodium compounds, yielding a net margin of ~$1,800 after $400 in disassembly and logistics costs.",
+      "Recycling avoids the $2,200 reuse valuation loss but captures 70-80% of embodied material value through hydrometallurgical and pyrometallurgical recovery of Al, Cu, and Na2SO4 precursors.",
+      "Capex savings of ~$1,500 per pack are realized by diverting from secondary-market refurbishment (which would require $800+ in cell balancing and BMS replacement) to direct material recovery.",
+      "ROI on the recycling line is positive at scale: processing 100 packs annually generates ~$180,000 in net material revenue against a $120,000 annualized facility cost, yielding a 1.5x return."
+    ],
+    "environmental_assumptions": [
+      "Recycling the 400 kg VoltMax Na-Ion-1 pack avoids ~1,200 kg CO2e of embodied emissions by recovering aluminum (avoiding 11 t CO2e/t Al) and copper (avoiding 3.5 t CO2e/t Cu) from virgin smelting.",
+      "Sodium-ion chemistry eliminates critical mineral depletion: no lithium, nickel, or cobalt is lost, but ~180 kg of sodium sulfate and ~45 kg of iron are conserved for precursor reuse, reducing demand for mined Na2CO3.",
+      "Recovering ~120 kg of aluminum casing and ~35 kg of copper busbars per pack conserves virgin bauxite and copper ore, cutting upstream mining emissions by an estimated 450 kg CO2e per unit.",
+      "Proper pyrometallurgical processing of the Na-Ion-1 cells prevents release of residual electrolyte (NaPF6-based) and carbon anode particulates, avoiding ~200 kg CO2e of uncontrolled thermal decomposition emissions."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "De-energize & Verify Telemetry",
+        "description": "Verify 88% SOH and 120-cycle telemetry on VoltMax Na-Ion-1 BMS, confirm zero thermal events, and tag pack for recycling stream."
+      },
+      {
+        "step": 2,
+        "title": "Controlled Discharge & Lockout",
+        "description": "Discharge VoltMax Na-Ion-1 to 0 V via controlled load bank, confirm <1 V per cell, and apply lockout/tagout on 400 kg pack terminals."
+      },
+      {
+        "step": 3,
+        "title": "Pack Extraction & Module Separation",
+        "description": "Remove Rivian R1T mounting brackets, disconnect HV harness, and extract the 400 kg VoltMax Na-Ion-1 pack using certified EV lift equipment."
+      },
+      {
+        "step": 4,
+        "title": "Material Stream Segregation",
+        "description": "Separate aluminum casing, copper busbars, and Na-Ion-1 cell modules; route cells to pyrometallurgical line and metals to hydrometallurgical recovery."
+      },
+      {
+        "step": 5,
+        "title": "Recovery & Mass-Balance Audit",
+        "description": "Log recovered Al, Cu, Na2SO4, and Fe masses; generate mass-balance certificate and issue recycling compliance report for VoltMax Na-Ion-1."
+      }
+    ],
+    "is_cached": false
+  },
+  "EV-006": {
+    "disposition": "REFURBISH",
+    "headline": "Refurbishment Protocol: Samsung Display 12.3-OLED-EV Infotainment (VW ID.4)",
+    "economic_assumptions": [
+      "Refurbishment yields a net margin of $564 ($764 refurb value - $92 repair - $70 testing - $39 logistics), representing a 75% return on $752 total investment.",
+      "Avoids $528 in value destruction versus full recycling ($764 refurb value vs. $84 recovery scrap value).",
+      "Repair cost of $92 is minimal relative to the $764 refurbishment value, indicating a low-cost intervention with high economic leverage.",
+      "Logistics cost of $39 represents only 5.2% of total refurbishment value, confirming efficient supply chain economics for this component."
+    ],
+    "environmental_assumptions": [
+      "Refurbishment avoids embodied CO2e of approximately 45-60 kg CO2e associated with manufacturing a new 12.3-inch OLED display panel.",
+      "Conserves virgin materials including ~120g of indium (ITO), ~80g of rare-earth phosphors, and ~200g of copper in the display driver IC and FPCB.",
+      "Extends the functional life of the Samsung Display 12.3-OLED-EV by 3-5 years, deferring end-of-life e-waste and associated landfill emissions.",
+      "Reduces demand for new lithium and cobalt in the display's power management IC, conserving approximately 5-8g of Li and 2-3g of Co per unit."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "Safe Removal & ESD Prep",
+        "description": "Power down, disconnect 12V harness, and remove the 12.3-OLED-EV display assembly from the VW ID.4 dashboard using OEM fasteners."
+      },
+      {
+        "step": 2,
+        "title": "Diagnostic Isolation",
+        "description": "Bench-test the Samsung 12.3-OLED-EV panel to isolate the functional failure (e.g., driver IC, FPCB, or backlight circuit) using diagnostic software."
+      },
+      {
+        "step": 3,
+        "title": "Component-Level Repair",
+        "description": "Replace the failed component (driver IC or FPCB) with OEM-grade parts, reflow solder joints, and re-apply thermal interface material."
+      },
+      {
+        "step": 4,
+        "title": "Functional Validation",
+        "description": "Run full functional validation: pixel uniformity, touch response, brightness calibration, and thermal cycling per Samsung Display test spec."
+      },
+      {
+        "step": 5,
+        "title": "Reintegration & Documentation",
+        "description": "Reinstall the refurbished display into the VW ID.4, perform CAN bus integration test, and document SOH and serial number for traceability."
+      }
+    ],
+    "is_cached": false
+  },
+  "EV-020": {
+    "disposition": "RECYCLE",
+    "headline": "BorgWarner OBC-11kW (EV-020) Critical-Risk Recycling Protocol",
+    "economic_assumptions": [
+      "Recovery scrap value of $73 (Cu, Al, NdFeB, SiC) minus $39 logistics and $59 testing yields a net negative margin of -$25, justifying expedited recycling over refurbishment ($479 value) given CRITICAL_RISK status.",
+      "Avoiding $108 repair cost and $107 combined testing/logistics on a degraded unit with no error codes but critical safety flags eliminates $215 in sunk Capex exposure.",
+      "Recycling bypasses the $761 reuse valuation entirely, but prevents potential $5,000+ liability from high-voltage thermal incidents on a 800V-rated unit.",
+      "Net economic outcome: -$25 direct cost offset by avoided liability and regulatory compliance, ROI neutral within 30-day processing window."
+    ],
+    "environmental_assumptions": [
+      "Recycling 13.91 kg OBC-11kW recovers ~4.2 kg Cu, ~3.1 kg Al, and ~0.8 kg NdFeB magnets, avoiding 12.6 t CO2e embodied in virgin mineral extraction.",
+      "Conserving 0.8 kg NdFeB (Nd, Pr, Dy) avoids 28 t CO2e and 1.4 kg rare-earth ore processing per unit.",
+      "SiC power module recovery (~0.3 kg) prevents 9.2 t CO2e from virgin silicon carbide crystal growth.",
+      "Proper thermal management fluid and electrolyte capture avoids 0.4 t CO2e and prevents hazardous waste stream contamination."
+    ],
+    "action_steps": [
+      {
+        "step": 1,
+        "title": "HV De-Energize & Lockout",
+        "description": "Isolate 800V DC bus, verify zero potential with CAT IV meter, apply lockout tags to BorgWarner OBC-11kW terminals."
+      },
+      {
+        "step": 2,
+        "title": "Disassemble & Segregate Materials",
+        "description": "Thermally stabilize unit, remove 13.91 kg assembly, segregate SiC power module and NdFeB motor drive section for material recovery."
+      },
+      {
+        "step": 3,
+        "title": "Material Stream Routing",
+        "description": "Route Cu windings, Al heat sinks, and NdFeB magnets to certified e-waste processor; document 73 USD recovery value."
+      },
+      {
+        "step": 4,
+        "title": "Safety Documentation & Ledger",
+        "description": "Log CRITICAL_RISK safety flags, degraded functional test, and 91.4% efficiency baseline to asset ledger for traceability."
+      },
+      {
+        "step": 5,
+        "title": "Final Verification & Closeout",
+        "description": "Confirm zero residual charge, certify thermal fluid capture, and close recycling ticket with 90% confidence disposition record."
+      }
+    ],
+    "is_cached": false
+  }
+}

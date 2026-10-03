@@ -1,0 +1,234 @@
+/* Analytics View Styles - Unified Enterprise Console */
+.analytics-view-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.analytics-header {
+  margin-bottom: 28px;
+}
+
+.analytics-tagline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #34d399;
+  margin-bottom: 6px;
+}
+
+.analytics-header h2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 6px;
+  letter-spacing: -0.5px;
+}
+
+.analytics-header p {
+  color: var(--text-secondary);
+  font-size: 13.5px;
+  margin: 0;
+  max-width: 780px;
+}
+
+/* KPI Grid */
+.analytics-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 860px) {
+  .analytics-kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.analytics-kpi-card {
+  background: var(--bg-surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.analytics-kpi-card:hover {
+  border-color: var(--border-medium);
+  transform: translateY(-1px);
+}
+
+.analytics-kpi-card.green-glow { border-color: rgba(52, 211, 153, 0.25); }
+.analytics-kpi-card.blue-glow { border-color: rgba(96, 165, 250, 0.25); }
+.analytics-kpi-card.purple-glow { border-color: rgba(168, 85, 247, 0.25); }
+.analytics-kpi-card.amber-glow { border-color: rgba(251, 191, 36, 0.25); }
+
+.kpi-icon-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.kpi-label {
+  font-size: 11px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-secondary);
+}
+
+.kpi-icon-green { color: #34d399; }
+.kpi-icon-blue { color: #60a5fa; }
+.kpi-icon-purple { color: #c084fc; }
+.kpi-icon-amber { color: #fbbf24; }
+
+.kpi-val {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.kpi-sub {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+/* Materials Section */
+.materials-section {
+  background: var(--bg-surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 750;
+  color: var(--text-primary);
+  margin: 0 0 6px;
+}
+
+.section-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0 0 18px;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .materials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.material-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  border-radius: 9px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.material-symbol {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 800;
+  color: #34d399;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: var(--disp-reuse-bg);
+  border: 1px solid var(--disp-reuse-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-info h4 {
+  margin: 4px 0 2px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.material-info span {
+  font-size: 12px;
+  color: #34d399;
+  font-weight: 600;
+}
+
+.material-purity {
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+/* Compliance Section */
+.compliance-section {
+  background: var(--bg-surface-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.compliance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 800px) {
+  .compliance-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.compliance-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.comp-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comp-badge.pass {
+  background: var(--disp-reuse-bg);
+  color: var(--disp-reuse-text);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.compliance-card h4 {
+  margin: 0 0 6px;
+  font-size: 13.5px;
+  color: var(--text-primary);
+}
+
+.compliance-card p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

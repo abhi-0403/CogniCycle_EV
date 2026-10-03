@@ -1,0 +1,425 @@
+/* Disposition Rationale Modal - Unified Enterprise Console */
+.rationale-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 8, 6, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+  animation: fadeIn 0.18s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.rationale-modal-container {
+  background: #111814;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  width: 100%;
+  max-width: 680px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(52, 211, 153, 0.15);
+  color: var(--text-primary);
+  overflow: hidden;
+  animation: slideUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(16px) scale(0.985); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.rationale-modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.rationale-tagline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  color: #34d399;
+  margin-bottom: 6px;
+}
+
+.lighten-icon {
+  color: #34d399;
+  filter: drop-shadow(0 0 6px rgba(52, 211, 153, 0.5));
+}
+
+.rationale-title {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-primary);
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.highlight-badge {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.highlight-badge.reuse {
+  background: var(--disp-reuse-bg);
+  color: var(--disp-reuse-text);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.highlight-badge.refurbish {
+  background: var(--disp-refurb-bg);
+  color: var(--disp-refurb-text);
+  border: 1px solid var(--disp-refurb-border);
+}
+
+.highlight-badge.recycle {
+  background: var(--disp-recycle-bg);
+  color: var(--disp-recycle-text);
+  border: 1px solid var(--disp-recycle-border);
+}
+
+.highlight-badge.assessment_required {
+  background: var(--disp-assess-bg);
+  color: var(--disp-assess-text);
+  border: 1px solid var(--disp-assess-border);
+}
+
+.rationale-meta {
+  display: block;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 6px;
+}
+
+.mono-id {
+  font-family: var(--font-mono);
+  color: #34d399;
+}
+
+.rationale-close-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  transition: all 0.18s;
+}
+
+.rationale-close-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.rationale-modal-body {
+  padding: 22px 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Verdict Banner */
+.verdict-banner {
+  border-radius: 9px;
+  padding: 14px 16px;
+}
+
+.verdict-banner.reuse {
+  background: var(--disp-reuse-bg);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.verdict-banner.refurbish {
+  background: var(--disp-refurb-bg);
+  border: 1px solid var(--disp-refurb-border);
+}
+
+.verdict-banner.recycle {
+  background: var(--disp-recycle-bg);
+  border: 1px solid var(--disp-recycle-border);
+}
+
+.verdict-banner.assessment_required {
+  background: var(--disp-assess-bg);
+  border: 1px solid var(--disp-assess-border);
+}
+
+.verdict-headline {
+  margin: 0 0 4px;
+  font-size: 13.5px;
+  font-weight: 750;
+  color: var(--text-primary);
+}
+
+.verdict-reasoning {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+
+/* Snapshot Grid */
+.telemetry-snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .telemetry-snapshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.snapshot-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.snapshot-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.snapshot-val {
+  font-size: 14.5px;
+  font-weight: 750;
+  color: var(--text-primary);
+}
+
+.val-good { color: #34d399; }
+.val-med { color: #60a5fa; }
+.val-low { color: #f87171; }
+
+/* Criteria section header */
+.section-title-wrap {
+  margin-bottom: 12px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 750;
+  color: var(--text-primary);
+  margin: 0 0 3px;
+}
+
+.section-subtitle {
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  display: block;
+}
+
+.title-icon {
+  color: #34d399;
+}
+
+/* Structured Evaluation Criteria Cards */
+.criteria-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.criteria-card-item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  border-radius: 9px;
+  padding: 12px 14px;
+  transition: all 0.18s ease;
+  position: relative;
+}
+
+.criteria-card-item:hover {
+  background: rgba(255, 255, 255, 0.035);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.criteria-card-item.tag-context {
+  border-left: 3px solid #38bdf8;
+}
+
+.criteria-card-item.tag-inference {
+  border-left: 3px solid #fbbf24;
+}
+
+.criteria-card-item.tag-economic {
+  border-left: 3px solid #34d399;
+}
+
+.criteria-card-item.tag-circular {
+  border-left: 3px solid #c084fc;
+}
+
+.criteria-card-item.tag-compliance {
+  border-left: 3px solid #2dd4bf;
+}
+
+.criteria-card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.criteria-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.criteria-pill.tag-context {
+  background: rgba(56, 189, 248, 0.14);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.28);
+}
+
+.criteria-pill.tag-inference {
+  background: rgba(251, 191, 36, 0.14);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+}
+
+.criteria-pill.tag-economic {
+  background: rgba(52, 211, 153, 0.14);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.28);
+}
+
+.criteria-pill.tag-circular {
+  background: rgba(192, 132, 252, 0.14);
+  color: #c084fc;
+  border: 1px solid rgba(192, 132, 252, 0.28);
+}
+
+.criteria-pill.tag-compliance {
+  background: rgba(45, 212, 191, 0.14);
+  color: #2dd4bf;
+  border: 1px solid rgba(45, 212, 191, 0.28);
+}
+
+.criteria-card-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.criteria-card-text {
+  margin: 0;
+  font-size: 12px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+/* Carbon box */
+.rationale-carbon-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+.leaf-icon {
+  color: #34d399;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.rationale-carbon-box strong {
+  display: block;
+  font-size: 12px;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.rationale-carbon-box p {
+  margin: 0;
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+/* Footer */
+.rationale-modal-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.rationale-btn {
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.18s;
+}
+
+.rationale-btn.secondary {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+}
+
+.rationale-btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.rationale-btn.primary {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25);
+}
+
+.rationale-btn.primary:hover {
+  filter: brightness(1.1);
+}

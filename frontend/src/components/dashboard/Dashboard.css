@@ -1,0 +1,12 @@
+/* Clean Application Container Styles */
+.cognicycle-app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-area {
+  flex: 1;
+  width: 100%;
+}

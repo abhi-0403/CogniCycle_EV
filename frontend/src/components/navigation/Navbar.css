@@ -1,0 +1,212 @@
+/* Navbar Container */
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(14, 20, 17, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.navbar-inner {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.brand-logo-glow {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-logo-glow:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.brand-title {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+}
+
+.brand-badge-ev {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--disp-reuse-bg);
+  color: var(--disp-reuse-text);
+  border: 1px solid var(--disp-reuse-border);
+}
+
+.brand-subtitle {
+  font-size: 11px;
+  color: var(--text-secondary);
+  letter-spacing: 0.2px;
+}
+
+/* Navigation Tabs */
+.navbar-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+}
+
+.nav-tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  white-space: nowrap;
+}
+
+.nav-tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-tab-btn.active {
+  color: #ffffff;
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  box-shadow: 0 1px 6px rgba(16, 185, 129, 0.12);
+}
+
+.nav-tab-icon {
+  display: flex;
+  align-items: center;
+}
+
+.nav-tab-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+.nav-tab-badge.badge-success {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+/* Actions & System Indicators */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cache-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.zap-icon {
+  color: #34d399;
+}
+
+.sync-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.sync-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border-medium);
+}
+
+.sync-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 980px) {
+  .navbar-inner {
+    flex-wrap: wrap;
+    padding: 12px 16px;
+  }
+  .navbar-tabs {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
